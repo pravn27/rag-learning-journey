@@ -1,1 +1,35 @@
 .vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+*.whl
+build/
+dist/
+.cache/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+.coverage
+.coverage.*
+
+# Environments
+.venv/
+venv/
+.env
+.env.*
+.envrc
+
+# Jupyter
+.ipynb_checkpoints
+
+# OS files
+.DS_Store
+
+# Logs
+*.log
