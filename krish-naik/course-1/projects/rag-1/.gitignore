@@ -1,2 +1,6 @@
 # Virtual environments
 .venv/
+
+# Environment variables (API keys, secrets)
+.env
+.env.*
