@@ -17,19 +17,48 @@ dist/
 .pytest_cache/
 .coverage
 .coverage.*
+htmlcov/
 
 # Environments
 .venv/
 venv/
+env/
+ENV/
 .env
 .env.*
 .envrc
 
 # Jupyter
 .ipynb_checkpoints
+*/.ipynb_checkpoints/*
 
 # OS files
 .DS_Store
+Thumbs.db
 
 # Logs
 *.log
+
+# Editors / office temp files
+~$*
+*.swp
+*.swo
+
+# RAG / vector database artifacts
+**/chroma_db/
+**/vector_store/
+**/.chroma/
+**/faiss_index/
+**/qdrant_storage/
+**/milvus_data/
+
+# Local generated data and outputs
+outputs/
+tmp/
+temp/
+
+# Local database files generated during experiments
+*.sqlite
+*.sqlite3
+*.db-shm
+*.db-wal
